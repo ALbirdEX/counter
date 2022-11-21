@@ -1,0 +1,19 @@
+.input {
+    text-align: center;
+    border-radius: 10px;
+    border-color: blue;
+    height: 25px;
+}
+
+.button {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.count {
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+}
