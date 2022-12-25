@@ -21,7 +21,7 @@ export const Counter: React.FC = () => {
     }
     const startValueHandler = (event: ChangeEvent<HTMLInputElement>) =>{
          const valueStartData = event.currentTarget.value
-        setData(+valueStartData)
+        setData(Number(valueStartData))
     }
 
     return (
